@@ -25,7 +25,8 @@ app.add_middleware(
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-NUM_SCENES = 8
+# NUM_SCENES = 8
+NUM_SCENES = 10
 NUM_DEVICES = 3
 
 SCENE_LABELS = [
